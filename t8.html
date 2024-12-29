@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         // Q 1. Use map to create a new array where each number is doubled.
+            // 2. Use filter to create a new array with only the even numbers.
+            //     Q: Use a for...of loop to iterate over an array of fruits:
+            // const fruits = ["apple", "banana", "cherry"]; Log each fruit to the console.
+
+            {
+                const numbers = [1, 2, 3, 4, 5];
+                let arr = numbers.map((num) => {
+                    return num * 2;
+                });
+                console.log(arr);
+
+                let arr2 = numbers.filter((num) => {
+                    return num % 2 === 0;
+                })
+                console.log(arr2);
+
+                const fruits = ["apple", "banana", "cherry"];
+
+                for (let fruit of fruits) {
+                    console.log(fruit);
+                }
+
+            }
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //  Q: What's the difference between let and const?
+        //     Write code that
+        //     demonstrates their behavior in a block scope.
+
+        //     let and const is block-scope it is accessiable whithin  the block
+        //         var is function scoped if we declared outside of a function it become global scoped 
+
+        console.log(a);
+        {
+            let a = 10;
+            console.log(a);
+        }
+        console.log(b);
+        {
+            const b = 20;
+            console.log(b);
+        }
+    </script>
+</body>
+</html>
